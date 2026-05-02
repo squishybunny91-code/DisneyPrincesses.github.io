@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Princess Belle</title>
+    <link rel="icon" type="image/x-icon" href="DisneyPrincesses.jpg">
+    <link rel="stylesheet" href="princess-styles.css" />
+
+</head>
+        <header style="background-color: #F0B34D;">
+        <h1>Welcome</h1>
+            You can watch all of our movies on Disney Plus! ~ The Princesses
+            <nav>                 
+                <a href="index.html" style="color: white;">Hello</a>
+                 <a href="Welcome.html" style="color: white;">Welcome</a>
+                 <a href="goodbye.html" style="color: white;">Goodbye, see you soon!</a>
+            </nav>
+        </header>
+</nav>
+</header>
+<style>
+    body{
+        background-color: #FEEFB5;
+        font-family: Sunshine;
+       
+    }
+    p{
+        font-size: 18px;
+    }
+
+    .container{
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: 150px 400px 100px;
+   grid-template-areas:
+      "head head head head"
+       "aside article article article"
+      "aside foot foot foot";
+
+
+}
+
+header{
+    background-color: #F0B34D;
+    grid-area: head;
+}
+
+main{
+    background-color: #F7E4A6;
+    grid-area: article;
+}
+
+aside{
+    background-color: #F8D562;
+    grid-area: aside;
+}
+
+
+footer{
+    background-color: #F0B34D;
+    grid-area: foot;
+}
+
+#belle-details{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+</style>
+
+<body>
+    <ul>
+        <li>Movie: Beauty and the Beast</li>
+        <li>Prince: Prince Adam / The Beast</li>
+        <li>Release Date: 1991</li>
+        <li> Song: Beauty & the Beast
+            <audio controls autoplay>
+                <source src="13 Beauty and the Beast.mp3">
+            </audio>
+        </li>
+    </ul>
+
+    <table>
+      
+  <tr>
+    <td><img class="meet" src="BlueBelle.png" alt="Belle in the blue dress"></td>
+    <td><img class="meet" src="PrincessBelleS.png" alt="Princess Belle"></td>
+  </tr>
+  
+</table>
+<p>Join brave, independent Belle on the adventure of a lifetime as she sets out to rescue her father---and discovers the enchanted castle of a mysterious beast. Enjoy this timeless tale overflowing with unforgettable characters and music you'll never forget, universally acclaimed as one of Walt Disney Animation Studios' finest features.(Disney Plus)</p>
+<div class="container">
+        <header style="color: white;">Belle</header>        
+        <main><img id="belle-details" src="bellewhiskerhaven.png" alt="Teacup"><figcaption style="color: white;">Princess Belle & Teacup</figcaption></main>
+        <aside style="color: white;"><img id="belle-details" src="princeBeastS.png" alt="Beast">Princess Belle & Beast</aside>
+        <footer style="color: white;">"Well, some people use their imagination." ~ Princess Belle</footer>
+    </div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer style="background-color:#F0B34D;"> 
+        <a href="goodbye.html" style="color: white;">Goodbye!</a> See you soon! 
+ </footer>
