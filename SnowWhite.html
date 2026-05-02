@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Princess Snow White</title>
+    <link rel="icon" type="image/x-icon" href="DisneyPrincesses.jpg">
+    <link rel="stylesheet" href="princess-styles.css" />
+
+</head>
+        <header style="background-color: #E34B62;">
+        <h1 style="color: white;">Welcome</h1>
+            <p style="color: white;">You can watch all of our movies on Disney Plus! ~ The Princesses</p>
+            <nav>                  
+                 <a href="index.html" style="color: white;">Hello</a>
+                 <a href="Welcome.html" style="color: white;">Welcome</a>
+                 <a href="goodbye.html" style="color: white;">Goodbye, see you soon!</a>
+            </nav>
+        </header>
+</nav>
+</header>
+<style>
+    body{
+        background-color: #8AC0E5;
+        font-family: Sunshine;
+       
+    }
+    p{
+        font-size: 18px;
+    }
+
+    .container{
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: 150px 400px 100px;
+   grid-template-areas:
+      "head head head head"
+       "aside article article article"
+      "aside foot foot foot";
+
+
+}
+
+header{
+    background-color: #FFCA35;
+    grid-area: head;
+}
+
+main{
+    background-color: #FFEB94;
+    grid-area: article;
+}
+
+aside{
+    background-color: #0A64A5;
+    grid-area: aside;
+}
+
+
+footer{
+    background-color: #FFCA35;
+    grid-area: foot;
+}
+
+#snow-details{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+</style>
+
+<body>
+    <ul>
+        <li>Movie: Snow White and the Seven Dwarfs</li>
+        <li>Prince: Florian</li>
+        <li>Release Date: 1937</li>
+        <li> Song: I'm Wishing
+            <audio controls autoplay>
+                <source src="HMV BD 515 - SNOW WHITE AND THE SEVEN DWARFS - i AM WISHING AND ONE SONG.mp3">
+            </audio>
+        </li>
+    </ul>
+
+    <table>
+      
+  <tr>
+    <td><img class="meet" src="cleaningSnow.png" alt="Snow White cleaning"></td>
+    <td><img class="meet" src="princessWhite.png" alt="Princess Snow White"></td>
+  </tr>
+  
+</table>
+<p>Forever enchanting and inspiring, "Snow White and the Seven Dwarfs" embodies Disney's legacy of animation. In this epic story of love and friendship, the kind and beautiful princess Snow White wins the hearts of the Seven Dwarfs and triumphs over the evil plans of a wicked Queen. (Disney Plus)</p>
+
+        <div class="container">
+                <header style="color: white;">Snow White</header>        
+                <main><img id="snow-details" src="SnowWhitewhiskerhaven.png" alt="Berry"><figcaption style="color: white;">Princess Snow White & Berry</figcaption></main>
+                <aside style="color: white;"><img id="snow-details" src="princeFlorian.png" alt="Florian">Princess Snow White & Prince Florian</aside>
+                <footer style="color: white;">"With a smile and a song, life is just like a bright sunny day." ~ Princess Snow White</footer>
+        </div>
+    
+   
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer style="background-color:#E34B62;"> 
+        <a href="goodbye.html" style="color: white;">Goodbye!</a> See you soon! 
+ </footer>
