@@ -1,0 +1,103 @@
+
+
+h1 {
+    margin-top: 0;
+    font-size: 40px;
+}
+
+
+p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+
+h2 {
+    margin-top: 0;
+}
+
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 12px 0;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+div .Disney_princess{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#Cuties{
+    width: 200PX;
+    height: 300px;
+}
+
+body{
+    font: Sunshine, sans-serif;
+    background-color: #FBE8ED;
+    text-align: center;
+    font-size: large;
+}
+
+footer {
+    text-align: center;
+}
+
+
+header{
+    text-align: center;
+}
+
+#detail:hover{
+    filter: blur(1px);
+    color: aqua;
+}
+
+table{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+
+.meet{
+    width: 300px;
+    height: 400px;
+}
+
+.meet2{
+    height: 450px;
+}
+
+.trailers:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 600px){
+    footer{display: none;
+    }
+    #Cuties{
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+button{
+    background-color: #ffb7ce;
+}
