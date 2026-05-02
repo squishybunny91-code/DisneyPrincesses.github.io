@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Princess Tiana</title>
+    <link rel="icon" type="image/x-icon" href="DisneyPrincesses.jpg">
+    <link rel="stylesheet" href="princess-styles.css" />
+
+</head>
+        <header style="background-color: #769A8C;">
+        <h1 style="color: white;">Welcome</h1>
+            <p style="color: white;">You can watch all of our movies on Disney Plus! ~ The Princesses</p>
+            <nav>                 
+                 <a href="index.html" style="color: white;">Hello</a>
+                 <a href="Welcome.html" style="color: white;">Welcome</a>
+                 <a href="goodbye.html" style="color: white;">Goodbye, see you soon!</a>
+            </nav>
+        </header>
+</nav>
+</header>
+<style>
+    body{
+        background-color: #F8F3CD;
+        font-family: Sunshine;
+       
+    }
+    p{
+        font-size: 18px;
+    }
+
+    .container{
+     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: 150px 400px 100px;
+   grid-template-areas:
+      "head head head head"
+       "aside article article article"
+      "aside foot foot foot";
+
+
+}
+
+header{
+    background-color: #8AAC66;
+    grid-area: head;
+}
+
+main{
+    background-color: #DAE4C7;
+    grid-area: article;
+}
+
+aside{
+    background-color: #BDD395;
+    grid-area: aside;
+}
+
+
+footer{
+    background-color: #8AAC66;
+    grid-area: foot;
+}
+
+#tiana-details{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+</style>
+
+<body>
+    <ul>
+        <li>Movie: The Princess and the Frog</li>
+        <li>Prince: Naveen</li>
+        <li>Release Date: 2009</li>
+        <li> Song: Almost There
+            <audio controls autoplay>
+                <source src="Princess and the Frog - Almost There.mp3">
+            </audio>
+        </li>
+    </ul>
+
+    <table>
+      
+  <tr>
+    <td><img class="meet" src="yellowTiana.png" alt="Tiana"></td>
+    <td><img class="meet" src="princessTiana.png" alt="Princess Tiana"></td>
+  </tr>
+  
+</table>
+<p>A modern twist on a classic tale from Walt Disney Animation Studios features a beautiful girl named Tiana who dreams of owning her own restaurant. When she meets a frog prince who desperately wants to be human again, a fateful kiss leads them both on a hilarious adventure through the mystical bayous of Louisiana...with the villainous voodoo magician Dr. Facilier in hot pursuit. (Disney Plus)</p>
+
+        <div class="container">
+                <header style="color: white;">Tiana</header>        
+                <main><img id="tiana-details" src="Tianawhiskerhaven.png" alt="Lily"><figcaption style="color: white;">Princess Tiana & Lily</figcaption></main>
+                <aside style="color: white;"><img id="tiana-details" src="princeNaveen.png" alt="Naveen">Princess Tiana & Prince Naveen</aside>
+                <footer style="color: white;">"The only way to get what you want in this world is through hard work." ~ Princess Tiana</footer>
+        </div>        
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer style="background: color #767676;;"> 
+        <a href="goodbye.html" style="color: white;">Goodbye!</a> See you soon! 
+ </footer>
